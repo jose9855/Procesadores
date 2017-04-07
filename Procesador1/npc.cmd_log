@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "F:/GitHub/Procesador1/npc.xst" -ofn "F:/GitHub/Procesador1/npc.syr" 
