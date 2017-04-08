@@ -34,7 +34,7 @@ use IEEE.NUMERIC_STD.ALL;
 entity uc is
     Port ( op : in  STD_LOGIC_VECTOR(1 downto 0);
            op3 : in  STD_LOGIC_VECTOR(5 downto 0);
-           out_uc : out  STD_LOGIC_VECTOR (5 downto 0));
+           alu_op : out  STD_LOGIC_VECTOR (5 downto 0));
 end uc;
 
 architecture Behavioral of uc is
@@ -47,35 +47,35 @@ begin
 	
 	if (op="10")then
 		
-					case op3 is 
-				
+						case op3 is
 							when "000000" => -- ADD
-								out_uc  <= "000001";
-
-							when "000100" => -- SUB
-								 out_uc <= "000010";
-								 
+							   alu_op <= "000000";
+								
 							when "000001" => -- AND
-								out_uc <= "000011";
-								 
-							when "000101" => -- ANDN
-								out_uc <= "000100";
-								 
+							   alu_op <= "000001";
+								
 							when "000010" => -- OR
-								out_uc <= "000101";
-								
-							when "000110" => -- ORN
-								out_uc <= "000110";
-								 
+							   alu_op <= "000010";
+							
 							when "000011" => -- XOR
-								out_uc  <= "000111"; 
-								
-							when "000111" => -- XORN
-								out_uc <= "001000";
+							   alu_op <= "000011";
+								 
+							when "000100" => -- SUB
+							   alu_op <= "000100";
+																
+							when "000101" => -- ANDN
+							   alu_op <= "000101";
+															 
+							when "000110" => -- ORN
+							   alu_op <= "000110";
+								 
+						   when "000111" => -- XORN
+							   alu_op <= "000111";
+							
 							when others => 
-								out_uc <= "111111"; 
-
-						end case;
+							   alu_op <= "000000";
+								 
+					   end case;
 						 
 		end if; 
 	

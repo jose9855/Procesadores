@@ -2,15 +2,15 @@
 -- Company: 
 -- Engineer:
 --
--- Create Date:   07:34:34 04/07/2017
+-- Create Date:   16:57:02 04/08/2017
 -- Design Name:   
--- Module Name:   F:/GitHub/Procesador1/rf_tb.vhd
+-- Module Name:   F:/GitHub/Procesador1/sumador_tb.vhd
 -- Project Name:  Procesador1
 -- Target Device:  
 -- Tool versions:  
 -- Description:   
 -- 
--- VHDL Test Bench Created by ISE for module: rf
+-- VHDL Test Bench Created by ISE for module: sumador
 -- 
 -- Dependencies:
 -- 
@@ -32,63 +32,65 @@ USE ieee.std_logic_1164.ALL;
 -- arithmetic functions with Signed or Unsigned values
 --USE ieee.numeric_std.ALL;
  
-ENTITY rf_tb IS
-END rf_tb;
+ENTITY sumador_tb IS
+END sumador_tb;
  
-ARCHITECTURE behavior OF rf_tb IS 
+ARCHITECTURE behavior OF sumador_tb IS 
  
     -- Component Declaration for the Unit Under Test (UUT)
  
-    COMPONENT rf
+    COMPONENT sumador
     PORT(
-         rs1 : IN  std_logic_vector(4 downto 0);
-         rs2 : IN  std_logic_vector(4 downto 0);
-         rd : IN  std_logic_vector(4 downto 0);
-         ctrs1 : OUT  std_logic_vector(31 downto 0);
-         ctrs2 : OUT  std_logic_vector(31 downto 0);
-         dwr : IN  std_logic_vector(31 downto 0);
-         rst : IN  std_logic
+         dato1 : IN  std_logic_vector(31 downto 0);
+         dato2 : IN  std_logic_vector(31 downto 0);
+         sum_out : OUT  std_logic_vector(31 downto 0)
         );
     END COMPONENT;
     
 
    --Inputs
-   signal rs1 : std_logic_vector(4 downto 0) := (others => '0');
-   signal rs2 : std_logic_vector(4 downto 0) := (others => '0');
-   signal rd : std_logic_vector(4 downto 0) := (others => '0');
-   signal dwr : std_logic_vector(31 downto 0) := (others => '0');
-   signal rst : std_logic := '0';
+   signal dato1 : std_logic_vector(31 downto 0) := (others => '0');
+   signal dato2 : std_logic_vector(31 downto 0) := (others => '0');
 
  	--Outputs
-   signal ctrs1 : std_logic_vector(31 downto 0);
-   signal ctrs2 : std_logic_vector(31 downto 0);
+   signal sum_out : std_logic_vector(31 downto 0);
    -- No clocks detected in port list. Replace <clock> below with 
    -- appropriate port name 
  
+   --constant <clock>_period : time := 10 ns;
  
 BEGIN
  
 	-- Instantiate the Unit Under Test (UUT)
-   uut: rf PORT MAP (
-          rs1 => rs1,
-          rs2 => rs2,
-          rd => rd,
-          ctrs1 => ctrs1,
-          ctrs2 => ctrs2,
-          dwr => dwr,
-          rst => rst
+   uut: sumador PORT MAP (
+          dato1 => dato1,
+          dato2 => dato2,
+          sum_out => sum_out
         );
 
    -- Clock process definitions
-
+--   <clock>_process :process
+--   begin
+--		<clock> <= '0';
+--		wait for <clock>_period/2;
+--		<clock> <= '1';
+--		wait for <clock>_period/2;
+--   end process;
+-- 
 
    -- Stimulus process
    stim_proc: process
    begin		
-      rst<='0';
-			rs1 <= "10100";
-			rs2 <= "10101";
-			rd <= "11010";
+      -- hold reset state for 100 ns.
+--      wait for 100 ns;	
+--
+--      wait for <clock>_period*10;
+
+      -- insert stimulus here 
+      dato1 <= X"00000001";
+		dato2 <= X"00000003";
+		
+		wait for 100 ns;	
 
       wait;
    end process;
