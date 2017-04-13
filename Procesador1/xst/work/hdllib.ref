@@ -1,0 +1,14 @@
+AR instructionmemory arqinstructionmemory F:/GitHub/Procesador1/instructionMemory.vhd sub00/vhpl03 1490904671
+AR npc behavioral F:/GitHub/Procesador1/npc.vhd sub00/vhpl01 1491352588
+AR sumador behavioral F:/GitHub/Procesador1/sumador.vhd sub00/vhpl11 1491688577
+EN pc NULL F:/GitHub/Procesador1/pc.vhd sub00/vhpl12 1491956536
+EN rf NULL F:/GitHub/Procesador1/rf.vhd sub00/vhpl04 1491568138
+AR uc behavioral F:/GitHub/Procesador1/uc.vhd sub00/vhpl07 1491687261
+EN uc NULL F:/GitHub/Procesador1/uc.vhd sub00/vhpl06 1491687260
+EN instructionmemory NULL F:/GitHub/Procesador1/instructionMemory.vhd sub00/vhpl02 1490904670
+EN npc NULL F:/GitHub/Procesador1/npc.vhd sub00/vhpl00 1491352587
+AR alu behavioral F:/GitHub/Procesador1/alu.vhd sub00/vhpl09 1491687948
+AR pc behavioral F:/GitHub/Procesador1/pc.vhd sub00/vhpl13 1491956537
+EN sumador NULL F:/GitHub/Procesador1/sumador.vhd sub00/vhpl10 1491688576
+AR rf behavioral F:/GitHub/Procesador1/rf.vhd sub00/vhpl05 1491568139
+EN alu NULL F:/GitHub/Procesador1/alu.vhd sub00/vhpl08 1491687947

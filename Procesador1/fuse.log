@@ -1,21 +1,19 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o F:/GitHub/Procesador1/sumador_tb_isim_beh.exe -prj F:/GitHub/Procesador1/sumador_tb_beh.prj work.sumador_tb 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o F:/GitHub/Procesador1/pc_tb_isim_beh.exe -prj F:/GitHub/Procesador1/pc_tb_beh.prj work.pc_tb 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Parsing VHDL file "F:/GitHub/Procesador1/sumador.vhd" into library work
-Parsing VHDL file "F:/GitHub/Procesador1/sumador_tb.vhd" into library work
+Parsing VHDL file "F:/GitHub/Procesador1/pc.vhd" into library work
+Parsing VHDL file "F:/GitHub/Procesador1/pc_tb.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
 Compiling package std_logic_1164
-Compiling package std_logic_arith
-Compiling package std_logic_unsigned
-Compiling architecture behavioral of entity sumador [sumador_default]
-Compiling architecture behavior of entity sumador_tb
+Compiling architecture behavioral of entity pc [pc_default]
+Compiling architecture behavior of entity pc_tb
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
-Compiled 7 VHDL Units
-Built simulation executable F:/GitHub/Procesador1/sumador_tb_isim_beh.exe
-Fuse Memory Usage: 33556 KB
-Fuse CPU Usage: 718 ms
+Compiled 5 VHDL Units
+Built simulation executable F:/GitHub/Procesador1/pc_tb_isim_beh.exe
+Fuse Memory Usage: 29760 KB
+Fuse CPU Usage: 531 ms

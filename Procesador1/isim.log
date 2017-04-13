@@ -1,5 +1,5 @@
 ISim log file
-Running: F:\GitHub\Procesador1\sumador_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb F:/GitHub/Procesador1/sumador_tb_isim_beh.wdb 
+Running: F:\GitHub\Procesador1\pc_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb F:/GitHub/Procesador1/pc_tb_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 ----------------------------------------------------------------------
 INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
