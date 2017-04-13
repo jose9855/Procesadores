@@ -1,0 +1,58 @@
+V3 46
+FL F:/GitHub/Procesador1/alu.vhd 2017/04/08.16:45:41 P.20131013
+FL F:/GitHub/Procesador1/instructionMemory.vhd 2017/03/30.15:11:03 P.20131013
+FL F:/GitHub/Procesador1/npc.vhd 2017/03/30.14:42:56 P.20131013
+FL F:/GitHub/Procesador1/pc.vhd 2017/04/11.19:22:09 P.20131013
+FL F:/GitHub/Procesador1/rf.vhd 2017/04/07.07:28:44 P.20131013
+FL F:/GitHub/Procesador1/sumador.vhd 2017/04/08.16:56:08 P.20131013
+FL F:/GitHub/Procesador1/uc.vhd 2017/04/08.12:58:56 P.20131013
+FL F:/GitHub/Procesador2-imm/alu.vhd 2017/04/13.13:14:14 P.20131013
+EN work/alu 1492120114 FL F:/GitHub/Procesador2-imm/alu.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/alu/Behavioral 1492120115 \
+      FL F:/GitHub/Procesador2-imm/alu.vhd EN work/alu 1492120114
+FL F:/GitHub/Procesador2-imm/instructionMemory.vhd 2017/04/13.16:48:10 P.20131013
+EN work/instructionMemory 1492120104 \
+      FL F:/GitHub/Procesador2-imm/instructionMemory.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB std/TEXTIO 1381692176
+AR work/instructionMemory/arqInstructionMemory 1492120105 \
+      FL F:/GitHub/Procesador2-imm/instructionMemory.vhd \
+      EN work/instructionMemory 1492120104
+FL F:/GitHub/Procesador2-imm/mux.vhd 2017/04/13.13:30:52 P.20131013
+EN work/mux 1492120110 FL F:/GitHub/Procesador2-imm/mux.vhd PB ieee/std_logic_1164 1381692176
+AR work/mux/Behavioral 1492120111 \
+      FL F:/GitHub/Procesador2-imm/mux.vhd EN work/mux 1492120110
+FL F:/GitHub/Procesador2-imm/npc.vhd 2017/04/13.16:34:16 P.20131013
+EN work/npc 1492120100 FL F:/GitHub/Procesador2-imm/npc.vhd PB ieee/std_logic_1164 1381692176
+AR work/npc/Behavioral 1492120101 \
+      FL F:/GitHub/Procesador2-imm/npc.vhd EN work/npc 1492120100
+FL F:/GitHub/Procesador2-imm/pc.vhd 2017/04/13.16:39:30 P.20131013
+EN work/pc 1492120102 FL F:/GitHub/Procesador2-imm/pc.vhd PB ieee/std_logic_1164 1381692176
+AR work/pc/Behavioral 1492120103 \
+      FL F:/GitHub/Procesador2-imm/pc.vhd EN work/pc 1492120102
+FL F:/GitHub/Procesador2-imm/procesador2.vhd 2017/04/13.16:44:24 P.20131013
+EN work/procesador2 1492120116 FL F:/GitHub/Procesador2-imm/procesador2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/procesador2/arq_procesador 1492120117 \
+      FL F:/GitHub/Procesador2-imm/procesador2.vhd EN work/procesador2 1492120116 \
+      CP sumador CP npc CP pc CP instructionMemory CP uc CP rf CP mux CP seu CP alu
+FL F:/GitHub/Procesador2-imm/rf.vhd 2017/04/13.16:20:48 P.20131013
+EN work/rf 1492120108 FL F:/GitHub/Procesador2-imm/rf.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/rf/Behavioral 1492120109 \
+      FL F:/GitHub/Procesador2-imm/rf.vhd EN work/rf 1492120108
+FL F:/GitHub/Procesador2-imm/seu.vhd 2017/04/13.13:26:46 P.20131013
+EN work/seu 1492120112 FL F:/GitHub/Procesador2-imm/seu.vhd PB ieee/std_logic_1164 1381692176
+AR work/seu/Behavioral 1492120113 \
+      FL F:/GitHub/Procesador2-imm/seu.vhd EN work/seu 1492120112
+FL F:/GitHub/Procesador2-imm/sumador.vhd 2017/04/08.16:56:08 P.20131013
+EN work/sumador 1492120098 FL F:/GitHub/Procesador2-imm/sumador.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sumador/Behavioral 1492120099 \
+      FL F:/GitHub/Procesador2-imm/sumador.vhd EN work/sumador 1492120098
+FL F:/GitHub/Procesador2-imm/uc.vhd 2017/04/08.12:58:56 P.20131013
+EN work/uc 1492120106 FL F:/GitHub/Procesador2-imm/uc.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/uc/Behavioral 1492120107 \
+      FL F:/GitHub/Procesador2-imm/uc.vhd EN work/uc 1492120106

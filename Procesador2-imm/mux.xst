@@ -1,0 +1,5 @@
+set -tmpdir "F:/GitHub/Procesador2-imm/xst/projnav.tmp"
+set -xsthdpdir "F:/GitHub/Procesador2-imm/xst"
+elaborate
+-ifn mux.prj
+-ifmt mixed

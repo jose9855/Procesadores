@@ -1,0 +1,1 @@
+vhdtdtfi -prj Procesador2-imm -o F:/GitHub/Procesador2-imm/mux.vhi -module mux -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work mux.vhd 

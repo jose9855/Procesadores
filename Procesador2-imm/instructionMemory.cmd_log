@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "F:/GitHub/Procesador2-imm/instructionMemory.xst" -ofn "F:/GitHub/Procesador2-imm/instructionMemory.syr" 
+vhdtdtfi -prj Procesador2-imm -o F:/GitHub/Procesador2-imm/instructionMemory.vhi -module instructionMemory -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work instructionMemory.vhd 

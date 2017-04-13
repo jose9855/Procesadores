@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "F:/GitHub/Procesador1/npc.xst" -ofn "F:/GitHub/Procesador1/npc.syr" 
+vhdtdtfi -prj Procesador2-imm -o F:/GitHub/Procesador2-imm/npc.vhi -module npc -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work npc.vhd 
+vhdtdtfi -prj Procesador2-imm -o F:/GitHub/Procesador2-imm/npc.vhi -module npc -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work npc.vhd 
+vhdtdtfi -prj Procesador2-imm -o F:/GitHub/Procesador2-imm/npc.vhi -module npc -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work npc.vhd 

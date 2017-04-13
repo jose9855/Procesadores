@@ -1,0 +1,7 @@
+[Inputs]
+Clock
+Reset
+=in_pc[31:0]=
+[Outputs]
+=out_pc[31:0]=
+[BiDir]
