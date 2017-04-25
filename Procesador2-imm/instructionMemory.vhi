@@ -1,5 +1,5 @@
 
--- VHDL Instantiation Created from source file instructionMemory.vhd -- 15:16:55 04/13/2017
+-- VHDL Instantiation Created from source file instructionMemory.vhd -- 17:32:28 04/24/2017
 --
 -- Notes: 
 -- 1) This instantiation template has been automatically generated using types

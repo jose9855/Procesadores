@@ -1,0 +1,17 @@
+vhdtdtfi -lib work procesador2.vhd -prj Procesador2-imm -o procesador2.spl -module procesador2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e procesador2.spl F:/GitHub/Procesador2-imm/procesador2.sym 
+vhdtdtfi -lib work procesador2.vhd -prj Procesador2-imm -o procesador2.spl -module procesador2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e procesador2.spl F:/GitHub/Procesador2-imm/procesador2.sym 
+xst -intstyle ise -ifn "F:/GitHub/Procesador2-imm/procesador2.xst" -ofn "F:/GitHub/Procesador2-imm/procesador2.syr" 
+xst -intstyle ise -ifn "F:/GitHub/Procesador2-imm/procesador2.xst" -ofn "F:/GitHub/Procesador2-imm/procesador2.syr" 
+xst -intstyle ise -ifn "F:/GitHub/Procesador2-imm/procesador2.xst" -ofn "F:/GitHub/Procesador2-imm/procesador2.syr" 
+netgen -intstyle ise -ar Structure -tm procesador2 -w -dir netgen/synthesis -ofmt vhdl -sim procesador2.ngc procesador2_synthesis.vhd 
+vhdtdtfi -lib work uc.vhd -lib work sumador.vhd -lib work seu.vhd -lib work rf.vhd -lib work pc.vhd -lib work npc.vhd -lib work mux.vhd -lib work instructionMemory.vhd -lib work alu.vhd -lib work procesador2.vhd -prj Procesador2-imm -o procesador2.spl -module procesador2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e procesador2.spl F:/GitHub/Procesador2-imm/procesador2.sym 
+vhdtdtfi -lib work uc.vhd -lib work sumador.vhd -lib work seu.vhd -lib work rf.vhd -lib work pc.vhd -lib work npc.vhd -lib work mux.vhd -lib work instructionMemory.vhd -lib work alu.vhd -lib work procesador2.vhd -prj Procesador2-imm -o procesador2.spl -module procesador2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e procesador2.spl F:/GitHub/Procesador2-imm/procesador2.sym 
+xst -intstyle ise -ifn "F:/GitHub/Procesador2-imm/procesador2.xst" -ofn "F:/GitHub/Procesador2-imm/procesador2.syr" 
+xst -intstyle ise -ifn "F:/GitHub/Procesador2-imm/procesador2.xst" -ofn "F:/GitHub/Procesador2-imm/procesador2.syr" 
+xst -intstyle ise -ifn "F:/GitHub/Procesador2-imm/procesador2.xst" -ofn "F:/GitHub/Procesador2-imm/procesador2.syr" 
+xst -intstyle ise -ifn "F:/GitHub/Procesador2-imm/procesador2.xst" -ofn "F:/GitHub/Procesador2-imm/procesador2.syr" 
+xst -intstyle ise -ifn "F:/GitHub/Procesador2-imm/procesador2.xst" -ofn "F:/GitHub/Procesador2-imm/procesador2.syr" 

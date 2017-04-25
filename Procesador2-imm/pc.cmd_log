@@ -4,3 +4,4 @@ vhdtdtfi -prj Procesador2-imm -o F:/GitHub/Procesador2-imm/pc.vhi -module pc -te
 vhdtdtfi -lib work pc.vhd -prj Procesador2-imm -o pc.spl -module pc -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
 spl2sym -intstyle ise -family spartan3e pc.spl F:/GitHub/Procesador2-imm/pc.sym 
 vhdtdtfi -prj Procesador2-imm -o F:/GitHub/Procesador2-imm/pc.vhi -module pc -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work pc.vhd 
+vhdtdtfi -prj Procesador2-imm -o F:/GitHub/Procesador2-imm/pc.vhi -module pc -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work pc.vhd 

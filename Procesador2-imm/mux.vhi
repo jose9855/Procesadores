@@ -1,5 +1,5 @@
 
--- VHDL Instantiation Created from source file mux.vhd -- 15:39:17 04/13/2017
+-- VHDL Instantiation Created from source file mux.vhd -- 18:18:03 04/24/2017
 --
 -- Notes: 
 -- 1) This instantiation template has been automatically generated using types

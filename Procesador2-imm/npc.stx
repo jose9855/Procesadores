@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to F:/GitHub/Procesador2-imm/xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.16 secs
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.18 secs
  
 --> Parameter xsthdpdir set to F:/GitHub/Procesador2-imm/xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.16 secs
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.18 secs
  
 --> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
 
@@ -21,12 +21,12 @@ Compiling vhdl file "F:/GitHub/Procesador2-imm/npc.vhd" in Library work.
 Architecture behavioral of Entity npc is up to date.
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.22 secs
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.73 secs
  
 --> 
 
-Total memory usage is 265168 kilobytes
+Total memory usage is 264336 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    1 (   0 filtered)

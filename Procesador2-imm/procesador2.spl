@@ -1,0 +1,6 @@
+[Inputs]
+clock
+reset
+[Outputs]
+=out_procesador2[31:0]=
+[BiDir]

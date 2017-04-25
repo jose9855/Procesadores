@@ -88,12 +88,12 @@ BEGIN
       ctrs1 <= X"00000002";
 		ctrs2 <= X"00000003";
 	   alu_op <= "000000";
-		wait for 100 ns;
+		wait for 20 ns;
 		
 		ctrs1 <= X"00000002";
 		ctrs2 <= X"00000003";
 	   alu_op <= "000001";
-		wait for 100 ns;
+		wait for 20 ns;
 
       wait;
       wait;
