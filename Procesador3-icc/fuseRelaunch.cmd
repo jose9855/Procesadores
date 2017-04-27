@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "F:/GitHub/Procesador3-icc/procesador3_tb_isim_beh.exe" -prj "F:/GitHub/Procesador3-icc/procesador3_tb_beh.prj" "work.procesador3_tb" 

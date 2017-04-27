@@ -1,0 +1,5 @@
+vhdtdtfi -prj Procesador2-imm -o F:/GitHub/Procesador2-imm/alu.vhi -module alu -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work alu.vhd 
+xst -intstyle ise -ifn "F:/GitHub/Procesador2-imm/alu.xst" -ofn "F:/GitHub/Procesador2-imm/alu.syr" 
+vhdtdtfi -prj Procesador2-imm -o F:/GitHub/Procesador2-imm/alu.vhi -module alu -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work alu.vhd 
+vhdtdtfi -prj Procesador3-icc -o F:/GitHub/Procesador3-icc/alu.vhi -module alu -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work alu.vhd 
+vhdtdtfi -prj Procesador3-icc -o F:/GitHub/Procesador3-icc/alu.vhi -module alu -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work alu.vhd 
