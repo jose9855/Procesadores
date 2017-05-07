@@ -1,0 +1,29 @@
+Command line:
+   tceprocesador4_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50333
+
+Thu May 04 19:52:11 2017
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 847.983 Meg
+
+ Total Signals          : 88
+ Total Nets             : 2725
+ Total Signal Drivers   : 25
+ Total Blocks           : 19
+ Total Primitive Blocks : 17
+ Total Processes        : 18
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 3227
+Total Line Count : 162
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 1162.56 Meg
+
+Thu May 04 19:52:52 2017
+

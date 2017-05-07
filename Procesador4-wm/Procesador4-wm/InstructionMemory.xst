@@ -1,0 +1,5 @@
+set -tmpdir "F:/GitHub/Procesador4-wm/xst/projnav.tmp"
+set -xsthdpdir "F:/GitHub/Procesador4-wm/xst"
+elaborate
+-ifn InstructionMemory.prj
+-ifmt mixed

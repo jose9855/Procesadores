@@ -1,0 +1,6 @@
+[Inputs]
+Rst
+=Direccion[31:0]=
+[Outputs]
+=Instruccion[31:0]=
+[BiDir]
